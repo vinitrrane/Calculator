@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4dce9aeb40.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+
+    <div class="main">
+
+        <h1 class="head">Calculator<span><i class="fa-solid fa-circle-plus"></i></span></h1>
+
+        <div class="container">
+
+            <input type="text" id="mainInput" class="mainIn" placeholder="0">
+            <div class="disArea">
+                <p type="text" id="mainDis" class="mainIn"></p>
+            </div>
+
+
+
+            <div class="CalBtn">
+                <button class="keyOp" onclick="fun(this)" value="+">+</button>
+                <button class="keyOp" onclick="fun(this)" value="-">-</button>
+                <button class="keyOp" onclick="fun(this)" value="*">&times;</button>
+                <button class="keyOp" onclick="fun(this)" value="/">÷</button>
+
+                <button onclick="fun(this)">7</button>
+                <button onclick="fun(this)">8</button>
+                <button onclick="fun(this)">9</button>
+                <button onclick="fun(this)">4</button>
+
+                <button onclick="fun(this)">5</button>
+                <button onclick="fun(this)">6</button>
+                <button onclick="fun(this)">1</button>
+                <button onclick="fun(this)">2</button>
+
+                <button onclick="fun(this)">3</button>
+                <button onclick="fun(this)">.</button>
+                <button onclick="fun(this)">0</button>
+                <button onclick="fun(this)">AC</button>
+                <button class="keyEqual" onclick="fun(this)">=</button>
+            </div>
+
+
+
+        </div>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
